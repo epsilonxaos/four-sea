@@ -1,0 +1,100 @@
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 15px 0px;
+    z-index: 500;
+    transition: background-color 400ms;
+    background-color: transparent;
+
+    img.logo {
+        width: 120px;
+
+        @media screen and (min-width: 768px){
+            width: 150px;
+        }
+    }
+
+    img.btn-menu {
+        width: 40px;
+        cursor: pointer;
+    }
+
+    &.bg-color {
+        background-color: $c1e183d;
+    }
+
+    @media screen and (max-width: 767px){
+        background-color: $c1e183d;
+    }
+}
+
+.menu--list {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 320px;
+    height: 100vh;
+    padding: 40px 0px;
+    padding-top: 90px;
+    background-color: $c1e183d;
+    color: $blanco;
+    z-index: 400;
+    overflow-y: auto;
+    transition: transform 400ms;
+    transform: translate(100%, 0%);
+
+    &.active {
+        transform: translate(0%, 0%);
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        text-align: right;
+
+        li {
+            font-size: 16px;
+            letter-spacing: 3px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 3px 0px;
+            display: block;
+
+            & + li {
+                margin-top: 10px;
+
+                @media screen and (min-width: 768px){
+                    margin-top: 20px;
+                }
+            }
+
+            &.active {
+                color: $cd6193d
+            }
+        }
+    }
+
+    .redes {
+        a {
+            color: $cd6193d;
+        }
+
+        a + a {
+            margin-left: 20px;
+        }
+    }
+
+    @media screen and (max-width: 767px){
+        width: 100%;
+
+        .container-fluid {
+            max-width: 280px;
+            margin-right: 0px;
+        }
+    }
+    @media screen and (min-width: 768px){
+        padding-top: 120px;
+    }
+}

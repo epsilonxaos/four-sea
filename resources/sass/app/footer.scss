@@ -1,0 +1,32 @@
+footer {
+    background-color: $blanco;
+    padding: 20px 0px;
+
+    h3 {
+        color: $cd6193d;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    hr {
+        border-color: $cd6193d;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: $c1e183d;
+        font-size: 14px;
+
+        &.red {
+            font-weight: 600;
+            font-size: 12px;
+            color: $cd6193d;
+        }
+    }
+
+    img {
+        transform: rotate(180deg);
+        width: 40px;
+    }
+}
