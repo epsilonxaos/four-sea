@@ -18,11 +18,11 @@
         <div class="row">
             <div class="col-12">
                 <ul class="m30">
-                    <li class="move-animation active"><a href="javascript:;" data-id="#inicio" data-speed="1500" data-space="0">Inicio</a></li>
-                    <li class="move-animation"><a href="javascript:;" data-id="#nosotros" data-speed="1500" data-space="90">Nosotros</a></li>
-                    <li class="move-animation"><a href="javascript:;" data-id="#soluciones" data-speed="1500" data-space="90">Soluciones</a></li>
-                    <li class="move-animation"><a href="javascript:;" data-id="#servicios" data-speed="1500" data-space="90">Servicios</a></li>
-                    <li class="move-animation"><a href="javascript:;" data-id="#contacto" data-speed="1500" data-space="90">Contacto</a></li>
+                    <li class="move-animation active"><a href="javascript:;" data-id="#inicio" data-speed="1500" data-space="0">@lang('menu.inicio')</a></li>
+                    <li class="move-animation"><a href="javascript:;" data-id="#nosotros" data-speed="1500" data-space="90">@lang('menu.nosotros')</a></li>
+                    <li class="move-animation"><a href="javascript:;" data-id="#soluciones" data-speed="1500" data-space="90">@lang('menu.soluciones')</a></li>
+                    <li class="move-animation"><a href="javascript:;" data-id="#servicios" data-speed="1500" data-space="90">@lang('menu.servicios')</a></li>
+                    <li class="move-animation"><a href="javascript:;" data-id="#contacto" data-speed="1500" data-space="90">@lang('menu.contacto')</a></li>
                 </ul>
                 <div class="redes text-right">
                     <a href="" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
