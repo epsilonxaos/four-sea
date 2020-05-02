@@ -179,16 +179,21 @@
                             <input class="m10" type="text" name="compania" placeholder="@lang('inicio.contacto.empresa')">
                             <input class="m10" type="email" name="email" placeholder="@lang('inicio.contacto.email')">
                             <input class="m10" type="text" name="telefono" placeholder="@lang('inicio.contacto.telefono')">
-                            <select class="m20" name="servicio">
-                                <option value="">@lang('inicio.contacto.servicios')</option>
-                                <option value="Flete marítimo">@lang('inicio.contacto.servicios.opcion1')</option>
-                                <option value="Flete aéreo">@lang('inicio.contacto.servicios.opcion2')</option>
-                                <option value="Transporte terrestre">@lang('inicio.contacto.servicios.opcion3')</option>
-                                <option value="Almacenaje">@lang('inicio.contacto.servicios.opcion4')</option>
-                                <option value="Asesoría aduanal">@lang('inicio.contacto.servicios.opcion5')</option>
-                            </select>
+                            <input type="hidden" name="servicio" id="servicio-input">
+                            <div class="dropdown m20" id="select-lie">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    @lang('inicio.contacto.servicios')
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" data-value="Flete marítimo">@lang('inicio.contacto.servicios.opcion1')</a>
+                                    <a class="dropdown-item" data-value="Flete aéreo">@lang('inicio.contacto.servicios.opcion2')</a>
+                                    <a class="dropdown-item" data-value="Transporte terrestre">@lang('inicio.contacto.servicios.opcion3')</a>
+                                    <a class="dropdown-item" data-value="Almacenaje">@lang('inicio.contacto.servicios.opcion4')</a>
+                                    <a class="dropdown-item" data-value="Asesoría aduanal">@lang('inicio.contacto.servicios.opcion5')</a>
+                                </div>
+                            </div>
                             <textarea class="m10" name="mensaje" cols="30" rows="5" placeholder="@lang('inicio.contacto.mensaje')"></textarea>
-                            <button type="submit" class="btn">@lang('inicio.contacto.enviar')</button>
+                            <button type="submit" class="btn send-mail">@lang('inicio.contacto.enviar')</button>
                         </form>
                     </div>
                     <span class="text-flotting-1"><span>4 - SEA</span></span>

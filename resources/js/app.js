@@ -53,3 +53,14 @@ if(document.querySelector('.move-animation')){
         });
     });
 }
+
+document.querySelectorAll('#select-lie .dropdown-menu .dropdown-item').forEach(item => {
+    item.addEventListener('click', function () {
+        let value = this.dataset.value;
+        let text = this.innerText;
+
+        document.querySelector('#select-lie #dropdownMenuButton').innerText = '';
+        document.querySelector('#select-lie #dropdownMenuButton').innerText = text;
+        document.getElementById('servicio-input').value = value;
+    });
+});

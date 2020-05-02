@@ -620,12 +620,56 @@
         }
     }
 
+    .dropdown {
+        button {
+            background-color: transparent;
+            width: 100%;
+            text-align: left;
+            padding: 4px 0px;
+            padding-right: 30px;
+            border: none;
+            border-radius: 0px;
+            border-bottom: 1px solid rgba($color: #fff, $alpha: 0.6);
+            background-image: url(/images/caret.png);
+            background-position: 98%;
+            background-repeat: no-repeat;
+            background-size: 16px;
+            color: $blanco;
+            font-weight: 600;
+            box-shadow: none;
+
+            &::after {
+                content: none;
+            }
+        }
+
+        .dropdown-menu {
+            width: 100%;
+            background-color: $cd6193d;
+            color: $blanco;
+            padding: 0px;
+            border: none;
+            border-radius: 0px;
+
+            a {
+                cursor: pointer;
+            }
+        }
+
+        .dropdown-item:hover, .dropdown-item:focus {
+            background: $blanco;
+            color: $c1e183d;
+            font-weight: 600;
+        }
+    }
+
     select {
         appearance: none;
         width: 100%;
         padding: 6px 0px;
         padding-bottom: 3px;
         background-color: transparent;
+        color: $c1e183d;
         border: none;
         box-shadow: none;
         border-radius: 0px;
@@ -654,7 +698,7 @@
         }
     }
 
-    .btn {
+    .btn.send-mail {
         background-color: $cd6193d;
         color: $blanco;
         font-weight: 400;
