@@ -6,11 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>4sea</title>
 
+        <link rel="stylesheet" href="{{asset('css/loading.css')}}">
         <script src="https://kit.fontawesome.com/8ff394cebc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
+        <div class="loading">
+            <div class="multi-ripple">
+                <div></div>
+                <div></div>
+            </div>
+            <small class="d-block">{{(App::getLocale() == 'es') ? 'Cargando...' : 'Loading...'}}</small>
+        </div>
+
         @include('include.menu')
 
         @yield('contenido')

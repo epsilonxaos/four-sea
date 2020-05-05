@@ -1,5 +1,11 @@
 require('./bootstrap');
 
+window.onload = function() {
+    setTimeout(() => {
+        $('.loading').fadeOut(500);
+    }, 300);
+};
+
 var mySwiper = new Swiper ('.slider-principal', {
     speed: 1500,
     allowTouchMove: false,
