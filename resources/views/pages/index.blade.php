@@ -173,13 +173,35 @@
                         <h3 class="text-uppercase">@lang('inicio.contacto.titulo2')</h3>
                         <hr>
 
-                        <form action="">
-                            <input class="m10" type="text" name="nombre" placeholder="@lang('inicio.contacto.nombre')">
-                            <input class="m10" type="text" name="apellidos" placeholder="@lang('inicio.contacto.apellido')">
-                            <input class="m10" type="text" name="compania" placeholder="@lang('inicio.contacto.empresa')">
-                            <input class="m10" type="email" name="email" placeholder="@lang('inicio.contacto.email')">
-                            <input class="m10" type="text" name="telefono" placeholder="@lang('inicio.contacto.telefono')">
-                            <input type="hidden" name="servicio" id="servicio-input">
+                        @if (session('message'))
+                            <p class="text-center text-black"><span style="color: #009a2 !important"><i class="far fa-smile-beam"></i></span> {{session('message_c')}}</p>
+                        @endif
+                        <form action="{{route('sendMailContacto')}}" method="POST">
+                            {{ csrf_field() }}
+                            @if ($errors->has('nombre'))
+                                <small class="text-danger d-block">{{ $errors->first('nombre') }}</small>
+                            @endif
+                            <input class="m10" type="text" name="nombre" placeholder="@lang('inicio.contacto.nombre')" value="{{old('nombre')}}">
+                            @if ($errors->has('apellidos'))
+                                <small class="text-danger d-block">{{ $errors->first('apellidos') }}</small>
+                            @endif
+                            <input class="m10" type="text" name="apellidos" placeholder="@lang('inicio.contacto.apellido')" value="{{old('apellidos')}}">
+                            @if ($errors->has('compania'))
+                                <small class="text-danger d-block">{{ $errors->first('compania') }}</small>
+                            @endif
+                            <input class="m10" type="text" name="compania" placeholder="@lang('inicio.contacto.empresa')" value="{{old('compania')}}">
+                            @if ($errors->has('email'))
+                                <small class="text-danger d-block">{{ $errors->first('email') }}</small>
+                            @endif
+                            <input class="m10" type="email" name="email" placeholder="@lang('inicio.contacto.email')" value="{{old('email')}}">
+                            @if ($errors->has('telefono'))
+                                <small class="text-danger d-block">{{ $errors->first('telefono') }}</small>
+                            @endif
+                            <input class="m10" type="text" name="telefono" placeholder="@lang('inicio.contacto.telefono')" value="{{old('telefono')}}">
+                            <input type="hidden" name="servicio" id="servicio-input" value="{{old('servicio')}}">
+                            @if ($errors->has('servicio'))
+                                <small class="text-danger d-block">{{ $errors->first('servicio') }}</small>
+                            @endif
                             <div class="dropdown m20" id="select-lie">
                                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     @lang('inicio.contacto.servicios')
@@ -192,7 +214,10 @@
                                     <a class="dropdown-item" data-value="Asesoría aduanal">@lang('inicio.contacto.servicios.opcion5')</a>
                                 </div>
                             </div>
-                            <textarea class="m10" name="mensaje" cols="30" rows="5" placeholder="@lang('inicio.contacto.mensaje')"></textarea>
+                            @if ($errors->has('mensaje'))
+                                <small class="text-danger d-block">{{ $errors->first('mensaje') }}</small>
+                            @endif
+                            <textarea class="m10" name="mensaje" cols="30" rows="5" placeholder="@lang('inicio.contacto.mensaje')">{{old('mensaje')}}</textarea>
                             <button type="submit" class="btn send-mail">@lang('inicio.contacto.enviar')</button>
                         </form>
                     </div>
@@ -208,3 +233,31 @@
     </div>
 
 @endsection
+
+@push('js')
+    <script>
+        var lang = '{{App::getLocale()}}';
+
+        (function () {
+            let v = document.querySelector('#servicio-input').value;
+            if(v) {
+                let t = document.querySelector('.dropdown-item[data-value="'+v+'"]').innerText;
+                document.getElementById('dropdownMenuButton').innerText = '';
+                document.getElementById('dropdownMenuButton').innerText = t;
+            }
+        })();
+    </script>
+
+    @if (!$errors->isEmpty())
+        <script>
+            (function (){
+                var x = $('html, body');
+                var y = $('#contacto');
+
+                x.animate({
+                    scrollTop: y.offset().top - 90
+                }, 0);
+            })();
+        </script>
+    @endif
+@endpush

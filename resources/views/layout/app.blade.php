@@ -19,5 +19,7 @@
 
         <script type="text/javascript" src="{{asset('js/swiper.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+
+        @stack('js')
     </body>
 </html>
