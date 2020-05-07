@@ -2,8 +2,8 @@
 
 return [
     'slider.titulo1' => 'Previniendo',
-    'slider.titulo2' => '<span>el</span> curso perfecto',
-    'slider.titulo3' => '<span class="font-genti text-white">de</span> tu carga.',
+    'slider.titulo2' => '<span>el</span> curso perfecto <span>de</span>',
+    'slider.titulo3' => 'tu carga.',
     'slider.titulo4' => 'Just think of the possibilities',
     'slider.contacto' => 'Contactanos',
 

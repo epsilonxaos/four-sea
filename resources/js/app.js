@@ -11,6 +11,7 @@ var mySwiper = new Swiper ('.slider-principal', {
     allowTouchMove: false,
     pagination: {
         el: '.swiper-pagination',
+        clickable: true
     },
     autoplay: true,
     loop: true

@@ -1,7 +1,13 @@
 <footer>
     <div class="container-fluid w14">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-lg-7 col-xl-6">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-4 col-md-1 order-md-1 m40 mb-md-0 text-left">
+                <img src="{{asset('images/flecha.svg')}}" alt="" class="arrow">
+            </div>
+            <div class="col-8 col-md-3 order-md-3 text-right m40 mb-md-0">
+                <img src="{{asset('images/logo-footer.svg')}}" alt="4Sea" class="logo">
+            </div>
+            <div class="col-12 col-md-8 order-md-2">
                 <h3 class="text-uppercase">@lang('footer.titulo')</h3>
                 <hr>
 
@@ -18,10 +24,7 @@
                     </div>
                 </div>
 
-                <p class="red mb-0">{{Date('Y')}} 4SEA. @lang('footer.derechos').</p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-4 col-xl-5 text-right">
-                <img src="{{asset('images/flecha.svg')}}" alt="">
+                <p class="red mb-0 text-center text-md-left">{{Date('Y')}} 4SEA. @lang('footer.derechos')</p>
             </div>
         </div>
     </div>

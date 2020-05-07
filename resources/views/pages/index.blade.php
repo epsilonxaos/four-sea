@@ -18,28 +18,28 @@
             <div class="swiper-container slider-principal">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slider.png')}})">
-                            <img src="{{asset('images/slider.png')}}" alt="">
+                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slide/01.png')}})">
+                            <img src="{{asset('images/slide/slider-mascara.png')}}" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slider.png')}})">
-                            <img src="{{asset('images/slider.png')}}" alt="">
+                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slide/02.png')}})">
+                            <img src="{{asset('images/slide/slider-mascara.png')}}" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slider.png')}})">
-                            <img src="{{asset('images/slider.png')}}" alt="">
+                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slide/03.png')}})">
+                            <img src="{{asset('images/slide/slider-mascara.png')}}" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slider.png')}})">
-                            <img src="{{asset('images/slider.png')}}" alt="">
+                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slide/04.png')}})">
+                            <img src="{{asset('images/slide/slider-mascara.png')}}" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slider.png')}})">
-                            <img src="{{asset('images/slider.png')}}" alt="">
+                        <div class="bg bg-position-bottom" style="background-image: url({{asset('images/slide/05.png')}})">
+                            <img src="{{asset('images/slide/slider-mascara.png')}}" alt="">
                         </div>
                     </div>
                 </div>

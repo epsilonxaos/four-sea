@@ -2,21 +2,21 @@
 
 return [
     'slider.titulo1' => 'FORESEEING',
-    'slider.titulo2' => '<span>the</span> PERFECT COURSE',
-    'slider.titulo3' => '<span class="font-genti text-white">of</span> your cargo.',
+    'slider.titulo2' => '<span class="text-lowercase">the</span> PERFECT COURSE <span class="text-lowercase">of</span>',
+    'slider.titulo3' => 'your cargo.',
     'slider.titulo4' => 'Just think of the possibilities',
     'slider.contacto' => 'Contact Us',
 
     'nosotros.titulo' => 'About Us',
-    'nosotros.texto1' => 'WE ARE a freight forwarder in Mexico that offers all-encompassing and tailored logistics solutions from start to finish, no matter of the point of origin or destination.',
-    'nosotros.texto2' => 'We provide a direct and personalized service to each of our customers, taking our time to learn about their specific processes and requirements, in order to design the most appropriate logistics solution.',
+    'nosotros.texto1' => '<b class="font-tinos">W</b>E ARE a freight forwarder in Mexico that offers all-encompassing and tailored logistics solutions from start to finish, no matter of the point of origin or destination.',
+    'nosotros.texto2' => 'We provide a direct and personalized service to each of our customers, taking our time to learn about their specific processes and requirements, in order to design <br> <br> <b>The most appropriate logistics solution.</b>',
 
-    'soluciones.titulo' => 'Logistics solutions',
-    'soluciones.texto1' => 'We cultivate value relationships by guaranteeing reliable services at very competitive prices, which we have achieved thanks to our global partner network and to the close relationship we maintain with shipping companies and airlines, as well as with logistics providers of infrastructure and equipment.',
-    'soluciones.texto2' => 'Whether you are looking to move a single pallet or an entire vessel or airplane, we can do it all under one roof, thus enabling you to focus on your core business activity. In 4Sea World Transport, we really handle your cargo as if it were ours.',
+    'soluciones.titulo' => 'Solutions',
+    'soluciones.texto1' => '<b class="font-tinos">W</b>e cultivate value relationships by guaranteeing reliable services at very competitive prices, which we have achieved thanks to our global partner network and to the close relationship we maintain with shipping companies and airlines, as well as with logistics providers of infrastructure and equipment.',
+    'soluciones.texto2' => 'Whether you are looking to move a single pallet or an entire vessel or airplane, we can do it all under one roof, thus enabling you to focus on your core business activity. <br><br><b>In 4Sea World Transport, we really handle your cargo as if it were ours.</b>',
 
-    'banner.titulo' => 'Take care about your business.',
-    'banner.titulo2' => '<span>We</span> take care <span>of the</span> rest',
+    'banner.titulo' => 'Take care of your business.',
+    'banner.titulo2' => 'We\'ll take care of the freight.',
 
     'servicios.titulo' => 'Services',
     'servicios.servicio1.titulo' => 'Sea freight',
@@ -31,7 +31,7 @@ return [
     'banner2.titulo' => 'Customs advice and support',
 
     'contacto.titulo1' => 'Let\'s start',
-    'contacto.titulo2' => 'with <span>your</span> next cargo.',
+    'contacto.titulo2' => 'with your next cargo.',
     'contacto.nombre' => 'First name',
     'contacto.apellido' => 'Last name',
     'contacto.empresa' => 'Company',
