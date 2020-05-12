@@ -15,7 +15,7 @@
                     <div class="col-12 col-md-6 m30 mb-md-0">
                         <p class="mb-0"><b>@lang('footer.contacto')</b></p>
                         <p class="mb-0"><a href="mailto:">contact@4seaworldtransport.com</a></p>
-                        <p class="mb-0">@lang('footer.telefono'): +52 1 999 136 8753</p>
+                        <p class="mb-0"><a href="tel:+5219991368753">+52 1 999 136 8753</a></p>
                     </div>
                     <div class="col-12 col-md-6 m30 mb-md-0">
                         <p class="mb-0"><b>@lang('footer.direccion')</b></p>
