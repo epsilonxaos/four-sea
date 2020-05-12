@@ -228,8 +228,8 @@
 
         b {
             &.font-tinos {
-                font-family: $font-gentium;
-                font-size: 30px;
+                font-family: $font-roboto;
+                font-size: 24px;
 
                 @media screen and (min-width: 768px){
                     font-size: 33px;
@@ -257,6 +257,7 @@
             display: inline-block;
             background-color: $cd6193d;
             padding: 0px 15px;
+            font-weight: 600;
 
             @media screen and (min-width: 992px){
                 writing-mode: vertical-rl;
@@ -352,7 +353,7 @@
 
             &.font-tinos {
                 font-size: 33px;
-                font-family: $font-gentium;
+                font-family: $font-roboto;
             }
         }
 
@@ -739,6 +740,7 @@
         color: $cd6193d;
         font-weight: 600;
         z-index: 1;
+        font-size: 25px;
 
         &::before {
             content: '';
@@ -796,6 +798,7 @@
     .text-flotting-2 {
         color: $cd6193d;
         font-weight: 600;
+        font-size: 25px;
 
         &::before {
             content: '';

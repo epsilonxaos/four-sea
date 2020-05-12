@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'titulo' => 'Contactanos',
+    'titulo' => 'Contactanos.',
     'contacto' => "Contacto",
     'telefono' => "Número de teléfono",
     'direccion' => "Dirección",

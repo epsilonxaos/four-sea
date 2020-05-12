@@ -20,7 +20,7 @@ return [
 
     'servicios.titulo' => 'Services',
     'servicios.servicio1.titulo' => 'Sea freight',
-    'servicios.servicio1.texto' => '- FCL (full-container load) - LCL (less-than-container load) <br> - Break-bulk cargo<br> - Roll-on/roll-off shipping <br> - Vessel chartering ',
+    'servicios.servicio1.texto' => '- FCL (full-container load) <br>- LCL (less-than-container load) <br> - Break-bulk cargo<br> - Roll-on/roll-off shipping <br> - Vessel chartering ',
     'servicios.servicio2.titulo' => 'Air freight',
     'servicios.servicio2.texto' => '- General cargo <br> - Fresh cargo <br> - Dangerous cargo <br> - Chartered carrier ',
     'servicios.servicio3.titulo' => 'Road haulage',
