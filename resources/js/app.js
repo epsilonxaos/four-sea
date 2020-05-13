@@ -71,3 +71,16 @@ document.querySelectorAll('#select-lie .dropdown-menu .dropdown-item').forEach(i
         document.getElementById('servicio-input').value = value;
     });
 });
+
+$(document).on("click",function(e) {
+
+    var container = $("#menu--list");
+    var container2 = $("#btn-menu");
+
+       if ((!container.is(e.target) && container.has(e.target).length === 0) && (!container2.is(e.target) && container2.has(e.target).length === 0)) {
+          console.log("¡Pulsaste fuera!");
+          document.getElementById('btn-menu').classList.remove('active');
+          document.querySelector('.menu--list').classList.remove('active');
+          document.querySelector('body').classList.remove('active-menu');
+       }
+});

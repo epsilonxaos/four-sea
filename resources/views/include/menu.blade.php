@@ -1,4 +1,4 @@
-<nav class="menu">
+<nav class="menu" id="content-menu">
     <div class="container-fluid w14">
         <div class="row align-items-center">
             <div class="col-6">
@@ -13,7 +13,7 @@
     </div>
 </nav>
 
-<div class="menu--list">
+<div class="menu--list" id="menu--list">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
