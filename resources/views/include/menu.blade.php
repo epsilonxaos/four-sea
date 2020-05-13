@@ -24,10 +24,10 @@
                     <li class="move-animation"><a href="javascript:;" data-id="#servicios" data-speed="1500" data-space="90">@lang('menu.servicios')</a></li>
                     <li class="move-animation"><a href="javascript:;" data-id="#contacto" data-speed="1500" data-space="90">@lang('menu.contacto')</a></li>
                 </ul>
-                <div class="redes text-right">
+                {{--<div class="redes text-right">
                     <a href="" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
                     <a href="" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
-                </div>
+                </div>--}}
             </div>
         </div>
     </div>

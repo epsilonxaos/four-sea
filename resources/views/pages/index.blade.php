@@ -68,7 +68,7 @@
                     <img src="{{asset('images/about_us.png')}}" alt="" class="w-100 barco">
                 </div>
             </div>
-            <span class="text-flotting"><span>4 - SEA</span></span>
+            <span class="text-flotting"><span>4SEA</span></span>
         </div>
     </div>
 
@@ -221,7 +221,7 @@
                             <button type="submit" class="btn send-mail">@lang('inicio.contacto.enviar')</button>
                         </form>
                     </div>
-                    <span class="text-flotting-1"><span>4 - SEA</span></span>
+                    <span class="text-flotting-1"><span>4SEA</span></span>
                 </div>
                 <div class="col-12 col-md-6 p-0 justify-content-center">
                     <div class="bg h-100" style="background-image: url({{asset('images/contacto.png')}})">

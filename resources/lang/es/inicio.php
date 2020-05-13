@@ -1,22 +1,22 @@
 <?php
 
 return [
-    'slider.titulo1' => 'Previniendo',
-    'slider.titulo2' => '<span>el</span> curso perfecto <span>de</span>',
+    'slider.titulo1' => 'PREVIENDO',
+    'slider.titulo2' => '<span class="text-lowercase">el</span> curso perfecto <span class="text-lowercase">de</span>',
     'slider.titulo3' => 'tu carga.',
-    'slider.titulo4' => 'Just think of the possibilities',
+    'slider.titulo4' => 'Solo piensa en las posibilidades.',
     'slider.contacto' => 'Contactanos',
 
     'nosotros.titulo' => 'Nosotros',
-    'nosotros.texto1' => 'SOMOS una agencia mexicana de carga internacional que ofrece soluciones logísticas completas y a la medida de principio a fin, sin importar el punto de origen o destino.',
-    'nosotros.texto2' => 'Nos basamos en otorgar un trato directo y personalizado a cada uno de nuestros clientes, tomándonos el tiempo de aprender acerca de sus procesos y requerimientos específicos, para así diseñar la solución logística más adecuada.',
+    'nosotros.texto1' => '<b class="font-tinos">S</b>OMOS una agencia mexicana de carga internacional que ofrece soluciones logísticas completas y a la medida de principio a fin, sin importar el punto de origen o destino.',
+    'nosotros.texto2' => 'Nos basamos en otorgar un trato directo y personalizado a cada uno de nuestros clientes, tomándonos el tiempo de aprender acerca de sus procesos y requerimientos específicos, para así diseñar... <br> <br> <b>La solución logística más adecuada.</b>',
 
     'soluciones.titulo' => 'Soluciones de logística',
-    'soluciones.texto1' => 'Cultivamos relaciones de valor al garantizar servicios de confianza a precios muy competitivos, lo cual hemos logrado gracias a nuestra red global de agentes y a la estrecha relación que mantenemos con navieras y aerolíneas, así como con proveedores logísticos de infraestructura y equipo.',
-    'soluciones.texto2' => 'Ya sea que estés buscando mover un solo pallet, o un barco o avión completo, lo hacemos todo por ti, permitiendo que tú sólo te enfoques en las actividades centrales de tu negocio. En 4Sea World Transport tratamos tu carga como si fuera nuestra.',
+    'soluciones.texto1' => '<b class="font-tinos">C</b>ultivamos relaciones de valor al garantizar servicios de confianza a precios muy competitivos, lo cual hemos logrado gracias a nuestra red global de agentes y a la estrecha relación que mantenemos con navieras y aerolíneas, así como con proveedores logísticos de infraestructura y equipo.',
+    'soluciones.texto2' => 'Ya sea que estés buscando mover un solo pallet, o un barco o avión completo, lo hacemos todo por ti, permitiendo que tú sólo te enfoques en las actividades centrales de tu negocio. <br><br><b>En 4Sea World Transport tratamos tu carga como si fuera nuestra.</b>',
 
-    'banner.titulo' => 'Ocúpate de tu negocio,',
-    'banner.titulo2' => '<span>nosotros</span> haremos <span>el</span> resto',
+    'banner.titulo' => 'OCUPATE DE TU NEGOCIO;',
+    'banner.titulo2' => 'NOSOTROS DE TU LOGÍSTICA.',
 
     'servicios.titulo' => 'Servicios',
     'servicios.servicio1.titulo' => 'Flete marítimo',
@@ -30,8 +30,8 @@ return [
 
     'banner2.titulo' => 'Asesoría y acompañamiento aduanal',
 
-    'contacto.titulo1' => 'Iniciemos',
-    'contacto.titulo2' => 'con <span>tu</span> próxima carga',
+    'contacto.titulo1' => 'INICIEMOS',
+    'contacto.titulo2' => 'CON TU PRÓXIMA CARGA.',
     'contacto.nombre' => 'Nombre',
     'contacto.apellido' => 'Apellidos',
     'contacto.empresa' => 'Empresa',
