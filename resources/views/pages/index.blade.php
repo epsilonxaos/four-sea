@@ -153,7 +153,7 @@
         <div class="container-fluid w14">
             <div class="row">
                 <div class="col-12 text-center m10 mb-md-0">
-                    <h3 class="text-uppercase mb-0">@lang('inicio.banner2.titulo') <img src="{{asset('images/barco.svg')}}" width="50px" alt="" class="d-none d-md-inline"></h3>
+                    <h3 class="text-uppercase mb-0">@lang('inicio.banner2.titulo') <img src="{{asset('images/barco.svg')}}" width="50px" alt="" class="d-none d-md-inline ml-md-3"></h3>
                 </div>
                 <div class="col-12 d-md-none text-center">
                     <img src="{{asset('images/barco.svg')}}" width="60px" alt="">
