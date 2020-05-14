@@ -5,7 +5,7 @@ return [
     'slider.titulo2' => '<span class="text-lowercase">el</span> curso perfecto <span class="text-lowercase">de</span>',
     'slider.titulo3' => 'tu carga.',
     'slider.titulo4' => 'Solo piensa en las posibilidades.',
-    'slider.contacto' => 'Contactanos',
+    'slider.contacto' => 'Contáctanos',
 
     'nosotros.titulo' => 'Nosotros',
     'nosotros.texto1' => '<b class="font-tinos">S</b>OMOS una agencia mexicana de carga internacional que ofrece soluciones logísticas completas y a la medida de principio a fin, sin importar el punto de origen o destino.',
