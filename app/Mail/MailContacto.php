@@ -3,6 +3,7 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
+use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -12,23 +13,23 @@ class MailContacto extends Mailable
     use Queueable, SerializesModels;
     public $subject = "4Sea - Correo de contacto";
 
-    public $nombre;
-    public $apellidos;
-    public $compania;
-    public $email;
-    public $telefono;
-    public $servicio;
-    public $mensaje;
+    // public $nombre;
+    // public $apellidos;
+    // public $compania;
+    // public $email;
+    // public $telefono;
+    // public $servicio;
+    // public $mensaje;
 
-    public function __construct($nombre, $apellidos, $compania, $email, $telefono, $servicio, $mensaje)
+    public function __construct(Request $request)
     {
-        $this -> nombre = $nombre;
-        $this -> apellidos = $apellidos;
-        $this -> compania = $compania;
-        $this -> email = $email;
-        $this -> telefono = $telefono;
-        $this -> servicio = $servicio;
-        $this -> mensaje = $mensaje;
+        $this -> nombre = $request -> nombre;
+        $this -> apellidos = $request -> apellidos;
+        $this -> compania = $request -> compania;
+        $this -> email = $request -> email;
+        $this -> telefono = $request -> telefono;
+        $this -> servicio = $request -> servicio;
+        $this -> mensaje = $request -> mensaje;
     }
 
     public function build()

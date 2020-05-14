@@ -27,13 +27,9 @@ class FrontController extends Controller
             'servicio' => 'required',
         ], $message);
 
-        Mail::to('wilberthg16@gmail.com') -> send(new MailContacto($request -> nombre, $request -> apellido, $request -> telefono, $request -> correo, $request -> mensaje));
+        Mail::to('wilberthg16@gmail.com') -> send(new MailContacto($request));
 
-        dd($request -> all());
-
-        // return back()
-        //     -> with('message_c', 'Gracias!, Pronto nos contactaremos contigo!');
-
-
+        return back()
+            -> with('message_c', 'Gracias!, Pronto nos contactaremos contigo!');
     }
 }
