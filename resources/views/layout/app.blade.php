@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{{asset('css/loading.css')}}?v=557922">
         <script src="https://kit.fontawesome.com/8ff394cebc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=8875549">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=5579463">
     </head>
     <body>
         <div class="loading">
@@ -27,7 +27,7 @@
         @include('include.footer')
 
         <script type="text/javascript" src="{{asset('js/swiper.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('js/app.js')}}?v=8876628"></script>
+        <script type="text/javascript" src="{{asset('js/app.js')}}?v=667126656"></script>
 
         @stack('js')
     </body>
