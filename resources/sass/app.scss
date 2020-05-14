@@ -228,14 +228,16 @@
         color: $c1e183d;
         font-weight: 400;
         font-size: 16px;
+        line-height: 1.2;
 
         b {
             &.font-tinos {
-                font-family: $font-gentium;
+                font-family: $font-roboto;
                 font-size: 24px;
 
                 @media screen and (min-width: 768px) {
                     font-size: 33px;
+                    line-height: 33px;
                 }
             }
         }
@@ -352,13 +354,15 @@
         color: $blanco;
         font-weight: 300;
         font-size: 16px;
+        line-height: 1.2;
 
         b {
             font-weight: 700;
 
             &.font-tinos {
                 font-size: 33px;
-                font-family: $font-gentium;
+                font-family: $font-roboto;
+                line-height: 33px;
             }
         }
     }
@@ -540,6 +544,10 @@
         font-family: $font-roboto;
         font-weight: 600;
         color: $c1e183d;
+
+        @media screen and (min-width: 992px){
+            font-size: 32px;
+        }
     }
 
     hr {
@@ -573,6 +581,7 @@
     background-color: $cd6193d;
     padding-top: 20px;
     color: $blanco;
+    margin-bottom: -2px;
 
     h3 {
         font-family: $font-roboto;

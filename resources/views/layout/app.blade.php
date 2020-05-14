@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{{asset('css/loading.css')}}?v=557922">
         <script src="https://kit.fontawesome.com/8ff394cebc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=5579463">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=4656656">
     </head>
     <body>
         <div class="loading">

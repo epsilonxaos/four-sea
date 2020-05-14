@@ -169,7 +169,7 @@
                 <div class="col-12 col-md-6 formulario">
                     <span class="text-flotting-2 text-uppercase"><span>World transport</span></span>
                     <div class="w-100 w-md-80 w-lg-70 mx-auto">
-                        <h2 class="text-uppercase">@lang('inicio.contacto.titulo1')</h2>
+                        <h2 class="text-uppercase mb-0">@lang('inicio.contacto.titulo1')</h2>
                         <h3 class="text-uppercase">@lang('inicio.contacto.titulo2')</h3>
                         <hr>
 
