@@ -78,11 +78,11 @@
 
     .redes {
         a {
-            color: $cd6193d;
-        }
+            color: $blanco;
 
-        a + a {
-            margin-left: 20px;
+            &.active {
+                color: $cd6193d;
+            }
         }
     }
 

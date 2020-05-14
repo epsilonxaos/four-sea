@@ -45,7 +45,7 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <div class="idiomas position-absolute">
+            <div class="idiomas position-absolute d-none">
                 <a href="{{ route('change_lang', ['lang' => 'es']) }}" {{(App::getLocale() == 'es') ? 'class=active' : ''}}>Es</a> -
                 <a href="{{ route('change_lang', ['lang' => 'en']) }}" {{(App::getLocale() == 'en') ? 'class=active' : ''}}>En</a>
                 {{-- <a href="#" class="active">ENG</a> - <a href="#">ESP</a> --}}
