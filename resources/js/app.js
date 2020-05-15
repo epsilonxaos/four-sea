@@ -27,9 +27,9 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 500) {
-        $(".menu").addClass("bg-color");
+        $(".menu-con").addClass("bg-color");
     }else {
-        $(".menu").removeClass("bg-color");
+        $(".menu-con").removeClass("bg-color");
     }
 });
 
@@ -84,4 +84,9 @@ $(document).on("click",function(e) {
           document.querySelector('.menu--list').classList.remove('active');
           document.querySelector('body').classList.remove('active-menu');
        }
+});
+
+AOS.init({
+    offset: 0,
+    once: true
 });

@@ -57,7 +57,7 @@
     <div class="about" id="nosotros">
         <div class="container-fluid w16 w-lg-90">
             <div class="row align-items-center justify-content-around">
-                <div class="col-12 col-md-6 col-lg-6 col-xl-4 m30 mb-md-0">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 m30 mb-md-0" data-aos="fade-up" data-aos-duration="1000">
                     <h3 class="text-uppercase mb-0">@lang('inicio.nosotros.titulo')</h3>
                     <hr>
                     <p>@lang('inicio.nosotros.texto1')</p>
@@ -65,7 +65,7 @@
                     <img src="{{asset('images/flecha.svg')}}" alt="" class="flecha">
                 </div>
                 <div class="col-12 col-md-6 col-lg-5 col-xl-5 text-center">
-                    <img src="{{asset('images/about_us.png')}}" alt="" class="w-100 barco">
+                    <img src="{{asset('images/about_us.png')}}" alt="" class="w-100 barco" data-aos="fade-up" data-aos-duration="1000">
                 </div>
             </div>
             <span class="text-flotting"><span>4SEA</span></span>
@@ -77,9 +77,9 @@
         <div class="container-fluid w16">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-11 col-lg-10 text-center text-md-left">
-                    <img src="{{asset('images/solutions.png')}}" alt="" class="w-100 contenedores">
+                    <img src="{{asset('images/solutions.png')}}" alt="" class="w-100 contenedores" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card">
-                        <div class="card-body text-left">
+                        <div class="card-body text-left" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-uppercase">@lang('inicio.soluciones.titulo')</h3>
                             <hr>
                             <p>@lang('inicio.soluciones.texto1')</p>
@@ -93,7 +93,7 @@
     </div>
 
     {{-- BANNER --}}
-    <div class="banner bg" style="background-image: url({{asset('images/servicios.png')}})">
+    <div class="banner bg" style="background-image: url({{asset('images/servicios.png')}})" data-aos="fade-up" data-aos-duration="1000">
         <div class="container-fluid w16">
             <div class="row">
                 <div class="col-12 text-center">
@@ -114,28 +114,28 @@
                 </div>
                 <div class="col-12 col-md-12 col-lg-11 col-xl-10">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-3 m20 mb-lg-0">
+                        <div class="col-12 col-sm-6 col-md-3 m20 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                             <div class="bg m20" style="background-image: url({{asset('images/servicios/1.png')}})">
                                 <img src="{{asset('images/servicios/1.png')}}" alt="">
                             </div>
                             <h4 class="text-uppercase">@lang('inicio.servicios.servicio1.titulo')</h4>
                             <p>@lang('inicio.servicios.servicio1.texto')</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 m20 mb-lg-0">
+                        <div class="col-12 col-sm-6 col-md-3 m20 mb-lg-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="bg m20" style="background-image: url({{asset('images/servicios/2.png')}})">
                                 <img src="{{asset('images/servicios/1.png')}}" alt="">
                             </div>
                             <h4 class="text-uppercase">@lang('inicio.servicios.servicio2.titulo')</h4>
                             <p>@lang('inicio.servicios.servicio2.texto')</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 m20 mb-md-0">
+                        <div class="col-12 col-sm-6 col-md-3 m20 mb-md-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             <div class="bg m20" style="background-image: url({{asset('images/servicios/3.png')}})">
                                 <img src="{{asset('images/servicios/1.png')}}" alt="">
                             </div>
                             <h4 class="text-uppercase">@lang('inicio.servicios.servicio3.titulo')</h4>
                             <p>@lang('inicio.servicios.servicio3.texto')</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3">
+                        <div class="col-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                             <div class="bg m20" style="background-image: url({{asset('images/servicios/4.png')}})">
                                 <img src="{{asset('images/servicios/1.png')}}" alt="">
                             </div>
@@ -149,7 +149,7 @@
     </div>
 
     {{-- BANNER 2 --}}
-    <div class="banner2">
+    <div class="banner2" data-aos="fade-in" data-aos-duration="1000">
         <div class="container-fluid w14">
             <div class="row">
                 <div class="col-12 text-center m10 mb-md-0">
@@ -169,8 +169,8 @@
                 <div class="col-12 col-md-6 formulario">
                     <span class="text-flotting-2 text-uppercase"><span>World transport</span></span>
                     <div class="w-100 w-md-80 w-lg-70 mx-auto">
-                        <h2 class="text-uppercase mb-0">@lang('inicio.contacto.titulo1')</h2>
-                        <h3 class="text-uppercase">@lang('inicio.contacto.titulo2')</h3>
+                        <h2 class="text-uppercase mb-0" data-aos="fade-in" data-aos-duration="1000">@lang('inicio.contacto.titulo1')</h2>
+                        <h3 class="text-uppercase" data-aos="fade-in" data-aos-duration="1000">@lang('inicio.contacto.titulo2')</h3>
                         <hr>
 
                         @if (session('message'))
@@ -181,28 +181,28 @@
                             @if ($errors->has('nombre'))
                                 <small class="text-danger d-block">{{ $errors->first('nombre') }}</small>
                             @endif
-                            <input class="m10" type="text" name="nombre" placeholder="@lang('inicio.contacto.nombre')" value="{{old('nombre')}}">
+                            <input class="m10" type="text" name="nombre" placeholder="@lang('inicio.contacto.nombre')" value="{{old('nombre')}}" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
                             @if ($errors->has('apellidos'))
                                 <small class="text-danger d-block">{{ $errors->first('apellidos') }}</small>
                             @endif
-                            <input class="m10" type="text" name="apellidos" placeholder="@lang('inicio.contacto.apellido')" value="{{old('apellidos')}}">
+                            <input class="m10" type="text" name="apellidos" placeholder="@lang('inicio.contacto.apellido')" value="{{old('apellidos')}}" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                             @if ($errors->has('compania'))
                                 <small class="text-danger d-block">{{ $errors->first('compania') }}</small>
                             @endif
-                            <input class="m10" type="text" name="compania" placeholder="@lang('inicio.contacto.empresa')" value="{{old('compania')}}">
+                            <input class="m10" type="text" name="compania" placeholder="@lang('inicio.contacto.empresa')" value="{{old('compania')}}" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                             @if ($errors->has('email'))
                                 <small class="text-danger d-block">{{ $errors->first('email') }}</small>
                             @endif
-                            <input class="m10" type="email" name="email" placeholder="@lang('inicio.contacto.email')" value="{{old('email')}}">
+                            <input class="m10" type="email" name="email" placeholder="@lang('inicio.contacto.email')" value="{{old('email')}}" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                             @if ($errors->has('telefono'))
                                 <small class="text-danger d-block">{{ $errors->first('telefono') }}</small>
                             @endif
-                            <input class="m10" type="text" name="telefono" placeholder="@lang('inicio.contacto.telefono')" value="{{old('telefono')}}">
+                            <input class="m10" type="text" name="telefono" placeholder="@lang('inicio.contacto.telefono')" value="{{old('telefono')}}" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                             <input type="hidden" name="servicio" id="servicio-input" value="{{old('servicio')}}">
                             @if ($errors->has('servicio'))
                                 <small class="text-danger d-block">{{ $errors->first('servicio') }}</small>
                             @endif
-                            <div class="dropdown m20" id="select-lie">
+                            <div class="dropdown m20" id="select-lie" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     @lang('inicio.contacto.servicios')
                                 </button>
@@ -217,13 +217,13 @@
                             @if ($errors->has('mensaje'))
                                 <small class="text-danger d-block">{{ $errors->first('mensaje') }}</small>
                             @endif
-                            <textarea class="m10" name="mensaje" cols="30" rows="5" placeholder="@lang('inicio.contacto.mensaje')">{{old('mensaje')}}</textarea>
-                            <button type="submit" class="btn send-mail">@lang('inicio.contacto.enviar')</button>
+                            <textarea class="m10" name="mensaje" cols="30" rows="5" placeholder="@lang('inicio.contacto.mensaje')" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">{{old('mensaje')}}</textarea>
+                            <button type="submit" class="btn send-mail" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">@lang('inicio.contacto.enviar')</button>
                         </form>
                     </div>
                     <span class="text-flotting-1"><span>4SEA</span></span>
                 </div>
-                <div class="col-12 col-md-6 p-0 justify-content-center">
+                <div class="col-12 col-md-6 p-0 justify-content-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
                     <div class="bg h-100" style="background-image: url({{asset('images/contacto.png')}})">
                         <img src="{{asset('images/contacto.png')}}" alt="">
                     </div>

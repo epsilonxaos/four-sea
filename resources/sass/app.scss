@@ -80,6 +80,7 @@
                     font-family: $font-gentium;
                     font-size: 20px;
                     font-style: italic;
+                    font-weight: 700;
 
                     @media screen and (min-width: 768px) {
                         font-size: 45px;
@@ -102,6 +103,7 @@
                 span {
                     font-family: $font-gentium;
                     font-size: 20px;
+                    font-weight: 700;
                     font-style: italic;
 
                     @media screen and (min-width: 768px) {
@@ -151,6 +153,15 @@
 
             @media screen and (min-width: 768px) {
                 letter-spacing: 3px;
+            }
+
+            @media (pointer: fine) {
+                transition: all 350ms;
+
+                &:hover {
+                    background-color: $blanco;
+                    color: $c1e183d;
+                }
             }
         }
     }
@@ -240,6 +251,10 @@
                     line-height: 33px;
                 }
             }
+        }
+
+        @media screen and (min-width: 992px){
+            font-size: 18px;
         }
     }
 
@@ -364,6 +379,10 @@
                 font-family: $font-roboto;
                 line-height: 33px;
             }
+        }
+
+        @media screen and (min-width: 992px){
+            font-size: 18px;
         }
     }
 
@@ -582,6 +601,8 @@
     padding-top: 20px;
     color: $blanco;
     margin-bottom: -2px;
+    position: relative;
+    z-index: 1;
 
     h3 {
         font-family: $font-roboto;
@@ -757,6 +778,18 @@
         box-shadow: none;
         border-radius: 0px;
         padding: 4px 45px;
+
+        @media (pointer: fine) {
+            border: 1px solid $cd6193d;
+            background-color: $c1e183d;
+            color: $blanco;
+            transition: all 350ms;
+            transition-delay: 0s !important;
+
+            &:hover {
+                background-color: $cd6193d;
+            }
+        }
     }
 
     .text-flotting-1 {

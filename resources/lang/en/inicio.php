@@ -19,13 +19,13 @@ return [
     'banner.titulo2' => 'We\'ll TAKE CARE OF THE FREIGHT.',
 
     'servicios.titulo' => 'Services',
-    'servicios.servicio1.titulo' => 'Sea freight',
+    'servicios.servicio1.titulo' => 'Sea freight.',
     'servicios.servicio1.texto' => '- FCL (full-container load) <br>- LCL (less-than-container load) <br> - Break-bulk cargo<br> - Roll-on/roll-off shipping <br> - Vessel chartering ',
-    'servicios.servicio2.titulo' => 'Air freight',
+    'servicios.servicio2.titulo' => 'Air freight.',
     'servicios.servicio2.texto' => '- General cargo <br> - Fresh cargo <br> - Dangerous cargo <br> - Chartered carrier ',
-    'servicios.servicio3.titulo' => 'Road haulage',
+    'servicios.servicio3.titulo' => 'Road haulage.',
     'servicios.servicio3.texto' => '- FTL (full-truck load) <br> - LTL (less-than-truck load) <br> - Specialized equipments ',
-    'servicios.servicio4.titulo' => 'Warehousing',
+    'servicios.servicio4.titulo' => 'Warehousing.',
     'servicios.servicio4.texto' => '- Unloading and reloading <br> - Packaging and fumigation <br> - Buyers consolidation ',
 
     'banner2.titulo' => 'Customs advice and support',

@@ -1,4 +1,4 @@
-.menu {
+.menu-con {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -27,6 +27,127 @@
 
     @media screen and (max-width: 767px){
         background-color: $c1e183d;
+    }
+
+    .menu {
+        height: 25px;
+        width: 35px;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+
+        &.menu-3 {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 5px;
+                background: #fff;
+                width: 100%;
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+                transition: transform 0.4s  0.4s, opacity 0.4s  0.4s;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                margin-left: auto;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 5px;
+                background: #fff;
+                width: 80%;
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+                transition: transform 0.4s  0.4s, opacity 0.4s  0.4s;
+            }
+
+            span {
+                height: 5px;
+                width: 100%;
+                display: block;
+                transform: translate3d(0, 10px, 0);
+                position: relative;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    margin-left: auto;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 5px;
+                    background: #fff;
+                    width: 65%;
+                    transform: rotate(0);
+                    transition: transform 0.4s;
+                }
+
+                &:after {
+                    content: '';
+                    display: block;
+                    margin-left: auto;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    height: 5px;
+                    background: #fff;
+                    width: 65%;
+                    transform: rotate(0);
+                    transition: transform 0.4s;
+                }
+            }
+
+            &.active {
+                &:before {
+                    transform: translate3d(100%, 0, 0);
+                    opacity: 0;
+                    transition: all 0.4s;
+                }
+
+                &:after {
+                    transform: translate3d(-100%, 0, 0);
+                    opacity: 0;
+                    transition: all 0.4s;
+                }
+
+                span {
+                    &:after {
+                        transform: rotate(45deg);
+                        transition: transform 0.4s 0.4s;
+                    }
+
+                    &:before {
+                        transform: rotate(-45deg);
+                        transition: transform 0.4s 0.4s;
+                    }
+                }
+            }
+
+            @media (pointer: fine) {
+
+                &:before,
+                &:after,
+                span::before,
+                span::after {
+                    transition: width 350ms;
+                }
+
+                &:hover,
+                &.active {
+                    &:before,
+                    &:after,
+                    span::before,
+                    span::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
 

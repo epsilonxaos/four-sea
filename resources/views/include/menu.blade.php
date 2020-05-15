@@ -1,4 +1,4 @@
-<nav class="menu" id="content-menu">
+<nav class="menu-con" id="content-menu">
     <div class="container-fluid w14">
         <div class="row align-items-center">
             <div class="col-6">
@@ -7,7 +7,10 @@
                 </a>
             </div>
             <div class="col-6 text-right">
-                <img src="{{asset('images/menu.svg')}}" alt="" class="btn-menu" id="btn-menu">
+                <div class="menu menu-3" id="btn-menu">
+                    <span></span>
+                </div>
+                {{-- <img src="{{asset('images/menu.svg')}}" alt="" class="btn-menu" id="btn-menu"> --}}
             </div>
         </div>
     </div>
