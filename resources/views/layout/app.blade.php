@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="{{asset('css/aos.css')}}">
         <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=6259562623">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=234845656">
     </head>
     <body>
         <div class="loading">
@@ -31,7 +31,7 @@
 
         <script type="text/javascript" src="{{asset('js/aos.js')}}"></script>
         <script type="text/javascript" src="{{asset('js/swiper.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('js/app.js')}}?v=667126656"></script>
+        <script type="text/javascript" src="{{asset('js/app.js')}}?v=66798454"></script>
 
         @stack('js')
     </body>
