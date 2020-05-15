@@ -9,7 +9,9 @@
         <link rel="stylesheet" href="{{asset('css/loading.css')}}?v=557922">
         <script src="https://kit.fontawesome.com/8ff394cebc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=662626262">
+        <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}?v=6259562623">
     </head>
     <body>
         <div class="loading">

@@ -15,7 +15,7 @@ return [
     'soluciones.texto1' => '<b class="font-tinos">C</b>ultivamos relaciones de valor al garantizar servicios de confianza a precios muy competitivos, lo cual hemos logrado gracias a nuestra red global de agentes y a la estrecha relación que mantenemos con navieras y aerolíneas, así como con proveedores logísticos de infraestructura y equipo.',
     'soluciones.texto2' => 'Ya sea que estés buscando mover un solo pallet, o un barco o avión completo, lo hacemos todo por ti, permitiendo que tú sólo te enfoques en las actividades centrales de tu negocio. <br><br><b>En 4Sea World Transport tratamos tu carga como si fuera nuestra.</b>',
 
-    'banner.titulo' => 'OCUPATE DE TU NEGOCIO;',
+    'banner.titulo' => 'OCÚPATE DE TU NEGOCIO;',
     'banner.titulo2' => 'NOSOTROS DE TU LOGÍSTICA.',
 
     'servicios.titulo' => 'Servicios',
