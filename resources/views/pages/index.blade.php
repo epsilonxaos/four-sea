@@ -8,11 +8,11 @@
             <div class="titulos position-absolute text-center">
                 <h2 class="mb-0 text-uppercase text-white">@lang('inicio.slider.titulo1')</h2>
                 <h2 class="mb-0 text-uppercase text-red">@lang('inicio.slider.titulo2')</h2>
-                <h2 class="mb-0 text-uppercase text-white">@lang('inicio.slider.titulo3')</h2>
+                <h2 class="mb-0 text-uppercase text-white big">@lang('inicio.slider.titulo3')</h2>
                 <h4 class="mt-2 text-uppercase">@lang('inicio.slider.titulo4')</h4>
                 <div class="line mx-auto mt-3 mb-4"></div>
                 <div class="move-animation">
-                    <a href="javascript:;" class="btn btn-white" data-id="#contacto" data-space="90" data-speed="1500">@lang('inicio.slider.contacto')</a>
+                    <a href="javascript:;" class="btn btn-white" data-id="#contacto" data-space="90" data-speed="1500">@lang('inicio.slider.contacto').</a>
                 </div>
             </div>
             <div class="swiper-container slider-principal">

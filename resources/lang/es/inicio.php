@@ -4,15 +4,15 @@ return [
     'slider.titulo1' => 'PREVIENDO',
     'slider.titulo2' => '<span class="text-lowercase">el</span> curso perfecto <span class="text-lowercase">de</span>',
     'slider.titulo3' => 'tu carga.',
-    'slider.titulo4' => 'Solo piensa en las posibilidades.',
+    'slider.titulo4' => 'Sólo piensa en las posibilidades.',
     'slider.contacto' => 'Contáctanos',
 
     'nosotros.titulo' => 'Nosotros',
-    'nosotros.texto1' => '<b class="font-tinos">S</b>OMOS una agencia mexicana de carga internacional que ofrece soluciones logísticas completas y a la medida de principio a fin, sin importar el punto de origen o destino.',
+    'nosotros.texto1' => '<span class="font-tinos">S</span>OMOS una agencia mexicana de carga internacional que ofrece soluciones logísticas completas y a la medida de principio a fin, sin importar el punto de origen o destino.',
     'nosotros.texto2' => 'Nos basamos en otorgar un trato directo y personalizado a cada uno de nuestros clientes, tomándonos el tiempo de aprender acerca de sus procesos y requerimientos específicos, para así diseñar... <br> <br> <b>La solución logística más adecuada.</b>',
 
-    'soluciones.titulo' => 'Soluciones de logística',
-    'soluciones.texto1' => '<b class="font-tinos">C</b>ultivamos relaciones de valor al garantizar servicios de confianza a precios muy competitivos, lo cual hemos logrado gracias a nuestra red global de agentes y a la estrecha relación que mantenemos con navieras y aerolíneas, así como con proveedores logísticos de infraestructura y equipo.',
+    'soluciones.titulo' => 'SOLUCIONES EN LOGÍSTICA.',
+    'soluciones.texto1' => '<span class="font-tinos">C</span>ULTIVAMOS relaciones de valor al garantizar servicios de confianza a precios muy competitivos, lo cual hemos logrado gracias a nuestra red global de agentes y a la estrecha relación que mantenemos con navieras y aerolíneas, así como con proveedores logísticos de infraestructura y equipo.',
     'soluciones.texto2' => 'Ya sea que estés buscando mover un solo pallet, o un barco o avión completo, lo hacemos todo por ti, permitiendo que tú sólo te enfoques en las actividades centrales de tu negocio. <br><br><b>En 4Sea World Transport tratamos tu carga como si fuera nuestra.</b>',
 
     'banner.titulo' => 'OCÚPATE DE TU NEGOCIO;',
@@ -21,7 +21,7 @@ return [
     'servicios.titulo' => 'Servicios',
     'servicios.servicio1.titulo' => 'Flete marítimo.',
     'servicios.servicio1.texto' => '- FCL (contenedor completo) <br> - LCL (contenedor parcial) <br> - Carga a granel <br> - Embarques roll-on/roll-off <br> - Fletamento de barco completo ',
-    'servicios.servicio2.titulo' => 'Flete aéreo.',
+    'servicios.servicio2.titulo' => 'CARGA REFRIGERADA.',
     'servicios.servicio2.texto' => '- Carga general <br> - Carga perecedera <br> - Carga peligrosa <br> - Fletamento de avión completo ',
     'servicios.servicio3.titulo' => 'Transporte terrestre.',
     'servicios.servicio3.texto' => '- FTL (caja completa) <br> - LTL (caja parcial) <br> - Equipos especializados ',

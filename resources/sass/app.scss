@@ -88,12 +88,18 @@
                 }
 
                 @media screen and (min-width: 768px) {
-                    font-size: 53px;
+                    font-size: 44px;
+
+                    &.big {
+                        font-size: 53px;
+                    }
                 }
 
                 @media screen and (min-width: 992px) {
                     letter-spacing: 10px;
                 }
+
+
             }
 
             &.text-red {
@@ -241,7 +247,7 @@
         font-size: 16px;
         line-height: 1.2;
 
-        b {
+        span {
             &.font-tinos {
                 font-family: $font-roboto;
                 font-size: 24px;
@@ -310,6 +316,11 @@
             }
         }
 
+        @media screen and (max-width: 767px){
+            width: 100%;
+            max-width: 512px;
+        }
+
         @media screen and (min-width: 768px) {
             margin-left: auto;
             text-align: left;
@@ -371,9 +382,7 @@
         font-size: 16px;
         line-height: 1.2;
 
-        b {
-            font-weight: 700;
-
+        span {
             &.font-tinos {
                 font-size: 33px;
                 font-family: $font-roboto;
@@ -446,7 +455,7 @@
             transform: translate(0%, -50%);
 
             @media screen and (max-width: 767px) {
-                left: -15px;
+                left: -25px;
                 top: 50%;
             }
 
@@ -467,10 +476,17 @@
             }
         }
 
+        // @media screen and (max-width: 767px){
+        //     width: 100%;
+        //     max-width: 512px;
+        // }
         @media screen and (max-width: 767px) {
             padding-left: 90px;
             position: relative;
             z-index: 1;
+            width: 100%;
+            display: block;
+            text-align: right;
 
             span {
                 background-color: $cd6193d;
@@ -609,7 +625,7 @@
         font-weight: 600;
 
         @media screen and (min-width: 992px) {
-            font-size: 30px;
+            font-size: 24px;
         }
     }
 
@@ -692,6 +708,8 @@
     }
 
     .dropdown {
+        z-index: 1;
+
         button {
             background-color: transparent;
             width: 100%;
@@ -827,6 +845,8 @@
             z-index: 1;
             margin-top: 30px;
             display: inline-block;
+            width: 100%;
+            text-align: right;
 
             span {
                 background-color: $c1e183d;
