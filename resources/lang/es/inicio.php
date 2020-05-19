@@ -22,7 +22,7 @@ return [
     'servicios.servicio1.titulo' => 'Flete marítimo.',
     'servicios.servicio1.texto' => '- FCL (contenedor completo) <br> - LCL (contenedor parcial) <br> - Carga a granel <br> - Embarques roll-on/roll-off <br> - Fletamento de barco completo ',
     'servicios.servicio2.titulo' => 'CARGA REFRIGERADA.',
-    'servicios.servicio2.texto' => '- Carga general <br> - Carga perecedera <br> - Carga peligrosa <br> - Fletamento de avión completo ',
+    'servicios.servicio2.texto' => '- Carga general <br> - Carga refrigerada <br> - Carga peligrosa <br> - Fletamento de avión completo ',
     'servicios.servicio3.titulo' => 'Transporte terrestre.',
     'servicios.servicio3.texto' => '- FTL (caja completa) <br> - LTL (caja parcial) <br> - Equipos especializados ',
     'servicios.servicio4.titulo' => 'Almacenaje.',
