@@ -29,7 +29,7 @@ return [
     'servicios.servicio4.titulo' => 'Warehousing.',
     'servicios.servicio4.texto' => '- Unloading and reloading <br> - Packaging and fumigation <br> - Buyers consolidation ',
 
-    'banner2.titulo' => 'Customs advice and support',
+    'banner2.titulo' => 'Customs advice and support.',
 
     'contacto.titulo1' => 'Let\'s start',
     'contacto.titulo2' => 'with your next cargo.',

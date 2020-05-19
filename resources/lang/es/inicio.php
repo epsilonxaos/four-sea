@@ -28,7 +28,7 @@ return [
     'servicios.servicio4.titulo' => 'Almacenaje.',
     'servicios.servicio4.texto' => '- Maniobras de recepción y entrega <br> - Embalaje y fumigación <br> - Consolidación en tránsito ',
 
-    'banner2.titulo' => 'Asesoría y acompañamiento aduanal',
+    'banner2.titulo' => 'Asesoría y acompañamiento aduanal.',
 
     'contacto.titulo1' => 'INICIEMOS',
     'contacto.titulo2' => 'CON TU PRÓXIMA CARGA.',
