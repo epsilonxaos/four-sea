@@ -2,7 +2,7 @@
 
 return [
     'slider.titulo1' => 'FORESEEING',
-    'slider.titulo2' => '<span class="text-lowercase">the</span> PERFECT COURSE <span class="text-lowercase">of</span>',
+    'slider.titulo2' => '<span class="text-lowercase" style="margin-right: 5px">the</span>PERFECT COURSE<span class="text-lowercase" style="margin-left: 5px">of</span>',
     'slider.titulo3' => 'your cargo.',
     'slider.titulo4' => 'Just think of the possibilities.',
     'slider.contacto' => 'Contact Us',
@@ -14,7 +14,7 @@ return [
 
     'soluciones.titulo' => 'LOGISTICS SOLUTIONS',
     'soluciones.texto1' => '<span class="font-tinos">W</span>E cultivate value relationships by guaranteeing reliable services at very competitive prices, which we have achieved thanks to our global partner network and to the close relationship we maintain with shipping companies and airlines, as well as with logistics providers of infrastructure and equipment.',
-    'soluciones.texto2' => 'Whether you are looking to move a single pallet or an entire vessel or airplane, we can do it all under one roof, thus enabling you to focus on your core business activity. <br><br><b>In 4Sea World Transport, we really handle your cargo as if it were ours.</b>',
+    'soluciones.texto2' => 'Whether you are looking to move a single pallet or an entire vessel or airplane, we can do it all under one roof, thus enabling you to focus on your core business activity. <br><br><b style="font-weight: 800">In 4Sea World Transport, we really handle your cargo as if it were ours.</b>',
 
     'banner.titulo' => 'TAKE CARE OF YOUR BUSINESS.',
     'banner.titulo2' => 'We\'ll TAKE CARE OF THE FREIGHT.',

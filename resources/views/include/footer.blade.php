@@ -20,7 +20,7 @@
                     <div class="col-12 col-md-6 m30 mb-md-0">
                         <p class="mb-0"><b>@lang('footer.direccion')</b></p>
                         <p class="mb-0">Calle 49-D #904, Fracc. Las Américas</p>
-                        <p class="mb-0">C.P 97302 Mérida, Yucatán, México</p>
+                        <p class="mb-0">Mérida, Yucatán, 97302 México</p>
                     </div>
                 </div>
 
